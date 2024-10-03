@@ -1,0 +1,588 @@
+<!doctype html>
+<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="TravelArk 2.0 - A Travel Blogging Site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>TravelArk</title>
+    
+    <meta property="og:description" content="trent's Travels - Journal, Photographs and Videos">
+    <meta property="og:image" content="http://images2.travelark.org/images/trent/uimg.dsc00537-1.jpg">
+    <meta property="og:site_name" content="TravelArk 2.0">
+    <meta property="og:title" content="trent">
+    <meta property="og:type" content="profile">
+    <meta property="og:url" content="http://v2.travelark.org/traveller/trent">
+    <meta property="fb:app_id" content="305440873246367">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <!--<link rel="icon" sizes="192x192" href="/images/android-desktop.png">-->
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <!--
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
+    <link rel="apple-touch-icon-precomposed" href="/images/ios-desktop.png">
+    -->
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <!--
+    <meta name="msapplication-TileImage" content="/images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+    -->
+
+    <link rel="shortcut icon" href="http://static.travelark.org/includes2/graphics/favicon.ico">
+
+    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+    <!--
+    <link rel="canonical" href="http://www.example.com/">
+    -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="http://static.travelark.org/includes2/brown-orange.css?v=1">
+    <link rel="stylesheet" href="http://static.travelark.org/includes2/modal.css?v=3">
+    <link rel="stylesheet" href="http://static.travelark.org/includes2/mdl-jquery-modal-dialog-master/mdl-jquery-modal-dialog.css?v=1">
+    <link rel="stylesheet" href="http://static.travelark.org/includes2/jquery-ui/jquery-ui.min.css">
+    
+        <!-- site css -->
+        <style type="text/css" media="screen">
+            @media (min-width: 992px) {
+                body {
+                    background-image: url();
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+                }
+            }
+        </style>
+    
+    <link rel="stylesheet" href="../includes2/styles.css%3Fv=49.css">
+
+    <script src="http://static.travelark.org/includes2/jquery-1.12.4.min.js?v=1"></script>
+    <script src="http://static.travelark.org/includes2/jquery-ui/jquery-ui.min.js?v=1"></script>
+    <script src="http://static.travelark.org/includes2/common.js?v=12"></script>
+    <script src="http://static.travelark.org/includes2/jquery.unveil.js?v=1" type="text/javascript"></script>
+    <script src="http://static.travelark.org/includes2/modal.js?v=5" type="text/javascript"></script>
+    <script src="http://static.travelark.org/includes2/mdl-jquery-modal-dialog-master/mdl-jquery-modal-dialog.js?v=1" type="text/javascript"></script>
+    <!--<script src="/includes2/jquery-cookie.js?v=1"></script>-->
+    
+    
+    <style type="text/css">
+        .new-tag {
+            vertical-align: super;
+            font-size: smaller;
+            color: orange;
+            font-style: italic;
+        }
+        .in-progress-tag {
+            vertical-align: super;
+            font-size: smaller;
+            color: blue;
+            font-style: italic;
+        }
+    </style>
+    
+  </head>
+
+  <body class="mdl-demo mdl-color--brown-50 mdl-color-text--grey-700 mdl-base pub ta-user pub-user pub-tier1">
+    <div id="notify"><span id="msg"></span></div>
+    <div class="docs-layout mdl-layout mdl-js-layout">
+      
+      <header class="docs-layout-header mdl-layout__header mdl-color--primary mdl-shadow--4dp is-casting-shadow" style='margin-top: 5px; border-radius:4px; max-width: 1024px; margin-left: auto; margin-right: auto;'>
+        
+        <div class="XXmdl-layout--large-screen-only mdl-layout__header-row">
+          <div style='width: 80px; height: 79px; overflow: hidden; display: inline-block;'>
+              <img src='http://static.travelark.org/includes2/graphics/ta2-logo.png'>
+          </div>
+          <div class="mdl-layout-title" style='display: inline-block; color: rgb(224,224,224);'>
+              <a class="bare-a bare-a-no-hover" href="http://v2.travelark.org/"><h2>TravelArk 2.0</h2></a>
+          </div>
+        </div>
+        <div class="docs-navigation__container">
+          <nav class="docs-navigation mdl-navigation">
+            <!-- public view stuff -->
+            <a href="trent.html" class="mdl-navigation__link pub-user default-hide pub-tier1-vis">trent</a>
+            <a href="http://v2.travelark.org/travel-blog/trent/" class="mdl-navigation__link pub-trip default-hide pub-tier2-vis"></a>
+            <a href="http://v2.travelark.org/travel-blog-entry/trent//" class="mdl-navigation__link pub-entry default-hide pub-tier3-vis"></a>
+            
+            <!-- main console -->
+            <a href="http://v2.travelark.org/edit-trips" class="mdl-navigation__link con-edit-trips default-hide con-vis">Trips</a>
+            <a href="http://v2.travelark.org/edit-profile" class="mdl-navigation__link default-hide con-tier1-vis con-edit-user-profile">Profile</a>
+            <a href="http://v2.travelark.org/edit-addressbook" class="mdl-navigation__link default-hide con-tier1-vis con-edit-user-addressbook">Address Book</a>
+            <a href="http://v2.travelark.org/edit-user-settings" class="mdl-navigation__link default-hide con-tier1-vis con-edit-user-settings">Settings</a>
+            <a href="http://v2.travelark.org/faq" class="mdl-navigation__link con-faq default-hide con-tier1-vis">FAQ</a>
+            <a href="http://v2.travelark.org/todo" class="mdl-navigation__link con-todo default-hide con-tier1-vis">TODO List</a>
+            <!-- trip stuff -->
+            <div class="mdl-navigation__link con-star default-hide con-tier2-trip-vis con-tier3-trip-vis"><i class="material-icons notranslate">keyboard_arrow_right</i></div>
+            <a href="http://v2.travelark.org/edit-trip-settings/" class="mdl-navigation__link con-edit-trip-settings default-hide con-tier2-trip-vis">Settings</a>
+            <a href="http://v2.travelark.org/edit-entries/" class="mdl-navigation__link con-edit-entries default-hide con-tier2-trip-vis con-tier3-trip-vis">Trip Entries</a>
+            <div class="mdl-navigation__link con-star default-hide con-tier3-trip-vis"><i class="material-icons notranslate">keyboard_arrow_right</i></div>
+            <a href="http://v2.travelark.org/edit-entry//" class="mdl-navigation__link con-edit-entry default-hide con-tier3-trip-vis">Entry Text</a>
+            <a href="http://v2.travelark.org/edit-images//" class="mdl-navigation__link con-edit-images default-hide con-tier3-trip-vis">Entry Photos</a>
+            <a href="http://v2.travelark.org/notify//" class="mdl-navigation__link con-share default-hide con-tier3-trip-vis">Share</a>
+            <!-- right hand area -->
+            <div class="mdl-layout-spacer"></div>
+            <div class="mdl-navigation__link con-star"><i class="material-icons notranslate" style='font-size: 8px; line-height: 44px;'>lens</i></div>
+            <a href="http://www.travelark.org/site_account.py" class="mdl-navigation__link ">Sign Up</a>
+            <a href="http://v2.travelark.org/edit-trips" class="mdl-navigation__link hide" style='text-transform: none;'></a>
+            <a href="http://v2.travelark.org/signout" class="mdl-navigation__link hide">sign out</a>
+            <a href="https://www.travelark.org/v2_login" class="mdl-navigation__link ">Login</a>
+          </nav>
+        </div> <!-- navigation container -->
+        <i class="material-icons scrollindicator scrollindicator--right disabled notranslate">&#xE315;</i>
+        <i class="material-icons scrollindicator scrollindicator--left disabled notranslate">&#xE314;</i>
+      </header>
+      <main class="mdl-layout__content">
+          <section></section>
+              <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {
+          'packages':['geochart'],
+          // Note: you will need to get a mapsApiKey for your project.
+          // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+          'mapsApiKey': 'AIzaSyCprMujzye2eV8d1x1pWliFodHl6JIiAfo'
+        });
+        google.charts.setOnLoadCallback(drawRegionsMap);
+
+        function drawRegionsMap() {
+            var data = google.visualization.arrayToDataTable([
+                ['Country'],['ad'],['ae'],['al'],['am'],['at'],['au'],['ba'],['be'],['bg'],['bw'],['ch'],['cn'],['co'],['cz'],['de'],['dk'],['ec'],['ee'],['eg'],['es'],['et'],['fr'],['gb'],['ge'],['gr'],['hk'],['hr'],['hu'],['id'],['in'],['int'],['is'],['jo'],['jp'],['ke'],['kh'],['kp'],['kr'],['la'],['lb'],['lk'],['lt'],['lv'],['me'],['mm'],['mn'],['my'],['nl'],['np'],['ph'],['pl'],['ro'],['rs'],['ru'],['rw'],['sa'],['sg'],['si'],['sk'],['sz'],['th'],['tr'],['tw'],['ua'],['ug'],['us'],['vn'],['za'],['zw']
+            ]);
+
+            var options = {};
+
+            var chart = new google.visualization.GeoChart(document.getElementById('world-map'));
+
+            google.visualization.events.addListener(chart, 'ready', function () {
+                var x = chart.getImageURI();
+                var z = 3;
+            });
+
+            chart.draw(data, options);
+          }
+          
+          
+          
+    </script>        
+    
+    <script type="text/javascript">
+        function toggleShowProfile() {
+            if ( $('#show-profile-button').text() == 'Show' ) {
+                $('.ta-bio-item').show();
+                $('#show-profile-button').text("Hide");
+            } else {
+                $('.ta-bio-item').hide();
+                $('#show-profile-button').text("Show");
+            }
+        }
+        
+        function togglePersonalProfile() {
+            $('#personal-profile').slideToggle();
+        }
+    
+        $(document).ready(function() {
+            if ($('.trip-list-item').length > 0) {
+                $('.trip-list-item').hover(function() {
+                    $('.trip-list-item').removeClass("mdl-color--brown-50");
+                    $(this).addClass("mdl-color--brown-50");
+                }, function() {
+
+                });
+            }
+
+            $('#subscribe-button').click( function() {
+                dlg = new ContactEdit();
+                try {
+                    dlg.showDialog({
+                        id: 'contact_edit',
+                        title: "Subscribe",
+                        action: 'add',
+                        uid: 'trent',
+                        email: '',
+                        name: '',
+                        onSave: function( email_out, name_out ) {
+                        }
+                    });
+                } catch( err ) {
+                    alert( "Error in website, please contat admin@travelark.org: " + err );
+                }
+                return false;
+            } );
+        });
+
+
+
+
+    </script>
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <header class="section__usermain mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-color-text--white">
+              <img class='user_avatar ' src="http://images2.travelark.org/images/trent/uimg.dsc00537-1.jpg">
+            </header>
+            <div class="mdl-card mdl-cell mdl-cell--6-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+              <div class="card-pad">
+                <div style='margin-bottom: 20px;'>
+                    <h2 style='display: inline; vertical-align: bottom;'>trent</h2>
+                    <div style="float: right;"><a href="trent.html"><img class="hide" style='vertical-align: top;' src="http://static.travelark.org/includes2/graphics/member_button.png?v=2"></a></div>
+                </div>
+                <div class="hide profile-top-location-container">
+                    <h6>Originally From</h6>
+                    <img class="hide" src="trent.html">
+                    <h5 class="hide"> </h5>
+                    <h5 class="hide">, </h5>
+                </div>
+                <div class=" profile-top-location-container">
+                    <h6>Current Home Base</h6>
+                    <img class="" src="http://static.travelark.org/includes2/graphics/flags_iso/48/us.png">
+                    <h5 class="">Austin,United States </h5>
+                    <h5 class="">, United States</h5>
+                </div>
+                <div class="hide profile-top-location-container">
+                    <h6>Currently Travelling To</h6>
+                    <img class="hide" src="trent.html">
+                    <h5 class="hide"> </h5>
+                    <h5 class="hide">, </h5>
+                </div>
+                <h6 style='margin: 0; margin-top: 15px;' class="hide">Languages</h6>
+                <h5 style='margin: 0;' class="hide"></h5>
+              </div>
+              <div class="mdl-card__actions" style='position: absolute; bottom: 0; left: 0; padding-left: 20px;'>
+                <button id="subscribe-button" class="mdl-button ">Subscribe</button>
+                <button class="mdl-button" disabled>Send Message</button>
+                <button class="mdl-button" disabled>Add Favorite</button>
+              </div>
+            </div>
+          </section>
+          
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="card-pad mdl-grid">
+                <h4 class="card-title mdl-cell mdl-cell--12-col">Traveler Information</h4>
+                <div class="mdl-cell mdl-cell--6-col">
+                  <div class="mdl-grid">
+                    <div class="mdl-cell mdl-cell--12-col">
+                      <div id="world-map" style='max-width: 100%;'></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mdl-cell mdl-cell--6-col">
+                  <div class="mdl-grid mdl-grid--no-spacing user-stats-container">
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                      <h6>Trips</h6>
+                      <h5>7</h5>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                      <h6>Entries</h6>
+                      <h5>530</h5>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                      <h6>Countries</h6>
+                      <h5>69</h5>
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone">
+                      <h6>Photos</h6>
+                      <h5>8,953</h5>
+                    </div>
+                  </div>
+                </div>
+                
+                <a href="trent.html#" class="mdl-cell mdl-cell--12-col"onclick='togglePersonalProfile(); return false;'>
+                  <h5 class="card-title" style='text-align: center; text-decoration: underline;'>
+                    <i class="material-icons notranslate" style='vertical-align: sub;'>keyboard_arrow_down</i>
+                    Show Personal Profile
+                    <i class="material-icons notranslate" style='vertical-align: sub;'>keyboard_arrow_down</i>
+                  </h5>
+                </a>
+                
+                <div id="personal-profile" class="mdl-cell mdl-cell--12-col">
+                    <div class="mdl-grid mdl-grid--no-spacing user-stats-container">
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone hide profile-middle-location-container">
+                            <h6>Originally From</h6>
+                            <img class="hide" src="trent.html">
+                            <h5 class="hide"></h5>
+                            <h5 class="hide">, </h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone  profile-middle-location-container">
+                            <h6>Current Home Base</h6>
+                            <img class="" src="http://static.travelark.org/includes2/graphics/flags_iso/48/us.png">
+                            <h5 class="">Austin,United States</h5>
+                            <h5 class="">, United States</h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone hide profile-middle-location-container">
+                            <h6>Currently Travelling To</h6>
+                            <img class="hide" src="trent.html">
+                            <h5 class="hide"></h5>
+                            <h5 class="hide">, </h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone hide">
+                            <h6>Profession</h6><h5></h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone hide">
+                            <h6>Number one on Bucket List</h6><h5></h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone hide">
+                            <h6>Favorite countries, regions, or places</h6><h5></h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--2-col-phone hide">
+                            <h6>Travel Style</h6><h5></h5>
+                        </div>
+                        <div class="ta-bio-item mdl-cell mdl-cell--12-col hide">
+                            <h6>More about trent</h6><p></p>
+                        </div>
+                    </div>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+
+          <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+            <div class="mdl-card mdl-cell mdl-cell--12-col">
+              <div class="card-pad mdl-grid">
+                <h4 class="card-title mdl-cell mdl-cell--6-col">trent's Trips</h4>
+                <ul class="mdl-grid trip-ul">
+                
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/world_travels" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.world_travels.the_road_less_traveled_by_vividdreamdesigns.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Travels in 2008 and beyond.</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>Dec 23, 2007 to </h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>267</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">photo_camera</i>6,767</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">videocam</i> 19</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">comment</i> 227</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/korea_2006-2007" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.korea_2006-2007.tibet_xchina_photosx_getty_imagesx-1.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Back to Asia for more teaching and traveling!</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>Feb 24, 2006 to Dec 31, 2007</h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>39</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">photo_camera</i>474</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">videocam</i> 13</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">comment</i> 1</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/europe-2005" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.europe-2005.question-mark.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Europe, Egypt, Russia...who 
+knows!</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>Aug 28, 2005 to Dec 31, 2005</h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>68</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">photo_camera</i>705</div>
+                                    <div class='hide'><i class="material-icons md-36 notranslate">videocam</i> 0</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">comment</i> 4</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/china_2004-2005" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.china_2004-2005.photo_lg_china1.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Stories and pictures from teaching and 
+traveling in and around China and 
+South Korea.</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>Aug 20, 2004 to Aug 28, 2005</h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>67</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">photo_camera</i>419</div>
+                                    <div class='hide'><i class="material-icons md-36 notranslate">videocam</i> 0</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">comment</i> 20</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/lombok_and_gili" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.lombok_and_gili.lokayasutha_x1ax_xlargex.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Travels in SE Asia</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>May 15, 2004 to Aug 20, 2004</h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>48</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">photo_camera</i>281</div>
+                                    <div class='hide'><i class="material-icons md-36 notranslate">videocam</i> 0</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">comment</i> 3</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/japan_02-04" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.japan_02-04.japan_flag.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Off into the big scary world of sumo, 
+kimono, and okonomiyaki!</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>Sep 25, 2002 to May 15, 2004</h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>40</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">photo_camera</i>273</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">videocam</i> 2</div>
+                                    <div class=''><i class="material-icons md-36 notranslate">comment</i> 2</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+
+            <li class="mdl-cell mdl-cell--12-col trip-list-item mdl-shadow--2dp">
+                <a href="http://v2.travelark.org/travel-blog/trent/us_adventures" class="trip-list-a">
+                <div class="mdl-grid" style='height: 100%;'>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" >
+                        <img class='mdl-shadow--2dp trip-list-img' src="http://images2.travelark.org/images/trent/wimg.us_adventures.usflag_xlargex.jpg">
+                    </div>
+                    <div class="mdl-cell mdl-cell--6-col-desktop mdl-cell--4-col-tablet mdl-cell--4-col-phone" style='position: relative;'>
+                        <div class="mdl-grid mdl-grid--no-spacing trip-list-right-half">
+                            <div class="mdl-cell mdl-cell--12-col">
+                                <h4>Travels before I ever thought of traveling.</h4>
+                                <h6 style='margin-bottom: 0px;'>Planned Dates</h6>
+                                <h5 style='margin-top: 5px;'>Jun 29, 1983 to Sep 10, 2002</h5>
+                            <!--</div>
+                            <div class="mdl-cell mdl-cell--12-col trip-list-icon-row">-->
+                                <div class="trip-list-icon-group mdl-cell--bottom">
+                                    <div class=''><i class="material-icons md-36 notranslate">insert_drive_file</i>1</div>
+                                    <div class='hide'><i class="material-icons md-36 notranslate">photo_camera</i>0</div>
+                                    <div class='hide'><i class="material-icons md-36 notranslate">videocam</i> 0</div>
+                                    <div class='hide'><i class="material-icons md-36 notranslate">comment</i> 0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </a>
+            </li>
+        
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section></section>
+        <footer class="mdl-mini-footer">
+          <div class="mdl-mini-footer__left-section">
+          </div>
+          <div class="mdl-mini-footer__middle-section">
+            <ul class="mdl-mini-footer__link-list" style='flex-wrap: wrap;'>
+              <li><a href="mailto:ryan@travelark.org">Help</a></li>
+              <li><a href="http://v2.travelark.org/faq">FAQ</a></li>
+              <li><a href="http://v2.travelark.org/terms">Privacy & Terms</a></li>
+              <li><small>(v4)</small></li>
+              <li>&copy; 2017 - TravelArk</li>
+            </ul>
+          </div>
+        </footer>
+      </main>
+    </div>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script type='text/javascript'>
+      var mainScrollArea = document.getElementsByClassName('mdl-layout')[0];
+      //var mainScrollArea = document.body;
+      var scrollTimeout;
+      window.onload = function () {
+        if(window.location.href == localStorage.getItem('lastUrl')) {
+          mainScrollArea.scrollTop = localStorage.getItem('scrollTop');
+        } else {
+          localStorage.setItem('lastUrl', window.location.href);
+          localStorage.setItem('scrollTop', 0);
+        }
+      }
+
+      mainScrollArea.addEventListener('scroll', function() {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(function() {
+          localStorage.setItem('scrollTop', mainScrollArea.scrollTop);
+        }, 100)
+      });
+  </script>
+  </body>
+</html>
